@@ -2,7 +2,7 @@
 #define _sensor_h
 #include <msp430.h>
 
-void initializeLedPins();
+
 
 void initializeADC10();
 

@@ -6,13 +6,13 @@ A library that allows for easy interfacing with the robot sensors.
 ## Functions
 
 - `void initializeADC10()`
-	-Sets up the ADC10 registers appropriately for use with the robot sensors.
+	- Sets up the ADC10 registers appropriately for use with the robot sensors.
 
 - `unsigned int checkLeftSensor()`
-	-Returns the voltage found at the left sensor after configuring the left sensor.
+	- Returns the voltage found at the left sensor after configuring the left sensor.
 
 - `unsigned int checkRightSensor()`
-	-Returns the voltage found at the right sensor after configuring the right sensor.
+	- Returns the voltage found at the right sensor after configuring the right sensor.
 
 - This library also contains interrupt code for ADC10.
 

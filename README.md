@@ -15,10 +15,11 @@ A library that allows for easy interfacing with the robot sensors.
 	=Returns the voltage found at the right sensor after configuring the right sensor.
 
 - This library also contains interrupt code for ADC10.
-										## Example Code
-										```c
 
+## Example Code
+
+```c
 //This code would initialize the ADC10 register and then return the left sensor voltage.
 									        initializeADC10();
 int voltageAtLeftSensor = checkLeftSensor();
-										```
+```
